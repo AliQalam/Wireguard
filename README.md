@@ -1,6 +1,20 @@
 <h1 align="center">🚀 WIREGUARD + WIREGUARD-UI – دليل شامل للإعداد على Ubuntu</h1>
 
 <p align="center">
+  <strong>💻 تثبيت مباشر:</strong> انسخ الأمر التالي والصقه في التيرمنال لتثبيت WireGuard تلقائيًا:
+</p>
+
+<pre><code>curl -sSL https://raw.githubusercontent.com/AliQalam/Wireguard/main/wireguard.sh | bash</code></pre>
+
+<p align="center">
+  <a href="https://github.com/AliQalam/Wireguard/blob/main/wireguard.sh" target="_blank">
+    🔗 رابط السكربت على GitHub
+  </a>
+</p>
+
+<hr>
+
+<p align="center">
   هذا المشروع يشرح كيفية تثبيت وتشغيل WireGuard مع واجهة المستخدم الرسومية WireGuard-UI على سيرفر Ubuntu، مع إعداد سكربتات Post Up و Post Down لتوجيه حركة المرور بسهولة 💪
 </p>
 
