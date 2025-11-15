@@ -54,8 +54,7 @@
   <li>الصق السكربت التالي في <strong>Post Up Script</strong>:</li>
 </ol>
 
-<pre><code>iptables -A FORWARD -i wg0 -j ACCEPT
-iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</code></pre>
+<pre><code>iptables -A FORWARD -i wg0 -j ACCEPT; iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</code></pre>
 
 <p>وظيفة هذا السكربت:</p>
 <ul>
@@ -67,8 +66,7 @@ iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE</code></pre>
   <li>الصق السكربت التالي في <strong>Post Down Script</strong>:</li>
 </ol>
 
-<pre><code>iptables -D FORWARD -i wg0 -j ACCEPT
-iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE</code></pre>
+<pre><code>iptables -D FORWARD -i wg0 -j ACCEPT; iptables -t nat -D POSTROUTING -o eth0 -j MASQUERADE</code></pre>
 
 <p>وظيفة هذا السكربت:</p>
 <ul>
